@@ -1,0 +1,15 @@
+# Local SDKs, JDK, Gradle distributions, and downloaded build tools
+/.build-tools/
+
+# Local build output and machine-specific configuration
+**/.gradle/
+**/build/
+**/.cxx/
+**/.idea/
+**/local.properties
+**/__pycache__/
+*.py[cod]
+.DS_Store
+
+# Archived LFS pointer without the original upstream binary
+/oculus_reader-main/oculus_reader/APK/teleop-debug.apk.lfs-pointer

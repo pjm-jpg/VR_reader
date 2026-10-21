@@ -1,0 +1,5 @@
+The font and loading/sound resources in this directory are copied unchanged
+from Meta-OpenXR-SDK v85, Samples/SampleXrFramework/res/raw.
+SDK commit: bbed2f20e38a5df7113630771c83cb8279e4fc26
+Source: https://github.com/meta-quest/Meta-OpenXR-SDK/tree/v85/Samples/SampleXrFramework/res/raw
+These SDK resources remain subject to the SDK's accompanying licence and notices.
