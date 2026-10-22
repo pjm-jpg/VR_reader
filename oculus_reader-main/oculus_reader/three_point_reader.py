@@ -85,6 +85,7 @@ class ThreePointReader:
         self._record_path = Path(record) if record else None
         self._record_file = None
         self.last_error = None
+        self.last_parse_error = None
         self.malformed_frames = 0
         self.frames_received = 0
 
@@ -166,8 +167,9 @@ class ThreePointReader:
                     continue
                 try:
                     frame = parse_frame(line)
-                except (ValueError, TypeError, KeyError):
+                except (ValueError, TypeError, KeyError) as error:
                     self.malformed_frames += 1
+                    self.last_parse_error = str(error)
                     continue
                 self._accept(frame, time.monotonic())
         except (OSError, ValueError) as error:
@@ -202,6 +204,8 @@ class ThreePointReader:
                 'malformed_frames': self.malformed_frames,
                 'last_frame_age_s': age,
                 'last_error': self.last_error,
+                'last_parse_error': self.last_parse_error,
+                'last_frame_focused': None if self._latest is None else self._latest['focused'],
             }
 
     def close(self):

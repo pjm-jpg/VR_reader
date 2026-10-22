@@ -123,6 +123,7 @@ elif 'logcat' in args:
                     time.sleep(0.01)
                 self.assertEqual(reader.frames_received, 2)
                 self.assertEqual(reader.malformed_frames, 1)
+                self.assertIsNotNone(reader.get_status()['last_parse_error'])
                 frame = reader.get_latest()
                 self.assertEqual(frame['sequence'], 2)
                 self.assertIsNone(frame['points']['left']['position_m'])

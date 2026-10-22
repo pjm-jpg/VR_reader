@@ -1,0 +1,42 @@
+{
+  "transport": "wifi",
+  "device": "192.168.50.210:5555",
+  "elapsed_s": 180.00996748800026,
+  "completed": true,
+  "error": null,
+  "frames": 12925,
+  "received_fps": 71.83646217238724,
+  "last_frame_age_s": 0.036646241998823825,
+  "longest_silence_s": 1.036808631997701,
+  "arrival_gap_ms": {
+    "p50": 2.1104590014147107,
+    "p95": 46.145025901569156,
+    "p99": 107.8399553203417
+  },
+  "sequence_skips": 1,
+  "session_changes": 0,
+  "reference_space_changes": 11,
+  "focused_fraction": 0.9999226305609284,
+  "valid_fraction": {
+    "head": 0.9999226305609284,
+    "left": 0.973384912959381,
+    "right": 0.9730754352030948
+  },
+  "tracked_fraction": {
+    "head": 0.9999226305609284,
+    "left": 0.973384912959381,
+    "right": 0.971063829787234
+  },
+  "receiver": {
+    "logcat_running": true,
+    "stream_open": true,
+    "frames_received": 12925,
+    "malformed_frames": 1,
+    "last_frame_age_s": 0.05341423099889653,
+    "last_error": null,
+    "last_parse_error": "Invalid orientation quaternion",
+    "last_frame_focused": true
+  },
+  "continuity_passed": false,
+  "scope": "Host arrival continuity only; not end-to-end latency or real-robot readiness."
+}

@@ -1,0 +1,48 @@
+{
+  "transport": "wifi",
+  "device": "192.168.0.106:5555",
+  "elapsed_s": 7.725452411999868,
+  "completed": false,
+  "error": "no new frames within the configured silent interval",
+  "frames": 138,
+  "received_fps": 51.51016406772517,
+  "last_frame_age_s": 5.015762813000038,
+  "longest_silence_s": 5.015762813000038,
+  "arrival_gap_ms": {
+    "p50": 0.1394850005453918,
+    "p95": 41.45591600026819,
+    "p99": 477.4673648000952
+  },
+  "sequence_skips": 0,
+  "session_changes": 0,
+  "reference_space_changes": 0,
+  "focused_fraction": 0.9927536231884058,
+  "valid_fraction": {
+    "head": 0.9927536231884058,
+    "left": 0.9927536231884058,
+    "right": 0.9927536231884058
+  },
+  "tracked_fraction": {
+    "head": 0.9927536231884058,
+    "left": 0.9927536231884058,
+    "right": 0.9927536231884058
+  },
+  "receiver": {
+    "logcat_running": true,
+    "stream_open": true,
+    "frames_received": 138,
+    "malformed_frames": 0,
+    "last_frame_age_s": 5.0159299110018765,
+    "last_error": null,
+    "last_parse_error": null,
+    "last_frame_focused": true
+  },
+  "device_probe": {
+    "adb_responsive": false,
+    "wakefulness": null,
+    "error": "Command '['/home/pjm/Desktop/humanoid-projects/H2O-VR/.build-tools/android-sdk/platform-tools/adb', '-s', '192.168.0.106:5555', 'shell', 'dumpsys', 'power']' timed out after 3 seconds",
+    "classification": "adb_or_network_unreachable"
+  },
+  "continuity_passed": false,
+  "scope": "Host arrival continuity only; not end-to-end latency or real-robot readiness."
+}
