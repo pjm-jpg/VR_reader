@@ -1,0 +1,34 @@
+10-27 22:33:18.983 [DEBUG] [robojudo] ========== robojudo-1.5.0 init done ==========
+
+10-27 22:33:18.983 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: left workspace, right workspace (arm scale 1.00)
+10-27 22:45:55.243 [DEBUG] [robojudo] ========== robojudo-1.5.0 init done ==========
+
+10-27 22:45:55.245 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: left workspace (arm scale 1.00)
+10-27 22:45:55.245 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: left workspace (arm scale 1.00)
+10-27 22:45:55.245 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: right workspace (arm scale 1.00)
+10-27 22:45:55.246 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: left workspace (arm scale 1.00)
+10-27 22:46:08.080 [DEBUG] [robojudo] ========== robojudo-1.5.0 init done ==========
+
+10-27 22:46:08.230 [INFO] [robojudo.policy.utils.h2h_model] H2H Actor model_30000_jit.pt: matched checkpoint profile; IMU source=pelvis, action_beta=1.0
+10-27 22:46:08.231 [INFO] [robojudo.policy.utils.h2h_model] H2H Actor model_30000_jit.pt: matched checkpoint profile; IMU source=pelvis, action_beta=1.0
+10-27 22:46:08.239 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.240 [WARNING] [robojudo.pipeline.quest_h2h_deploy_pipeline] STAND: policy enabled with fixed three-point targets; VR is not in control
+10-27 22:46:08.240 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: head fixed (arm scale 1.00)
+10-27 22:46:08.241 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.241 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.242 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.242 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.242 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.243 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.243 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.243 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.244 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.279 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.284 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.319 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: left workspace (arm scale 1.00)
+10-27 22:46:08.355 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: left workspace (arm scale 1.00)
+10-27 22:46:08.356 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.356 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.427 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.437 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
+10-27 22:46:08.438 [INFO] [robojudo.policy.utils.stationary_reference] Stationary reference: inside workspace (arm scale 1.00)
